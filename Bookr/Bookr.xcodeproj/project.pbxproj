@@ -85,8 +85,8 @@
 		CCFF366E233A803F00CF7B0F /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				CCFF366C233A803300CF7B0F /* LoginViewController.swift */,
 				CCFF3668233A7FD900CF7B0F /* BooksTableViewController.swift */,
+				CCFF366C233A803300CF7B0F /* LoginViewController.swift */,
 				CCFF366A233A7FE600CF7B0F /* BookDetailViewController.swift */,
 			);
 			path = "View Controllers";

@@ -9,6 +9,8 @@
 import UIKit
 
 class BooksTableViewController: UITableViewController {
+    
+    let apiController = APIController()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +20,14 @@ class BooksTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        if apiController.user == nil {
+            performSegue(withIdentifier: "LoginViewModalSegue", sender: self)
+        }
     }
 
     // MARK: - Table view data source

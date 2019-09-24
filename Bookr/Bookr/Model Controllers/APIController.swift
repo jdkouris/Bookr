@@ -25,6 +25,7 @@ enum NetworkError: Error {
 class APIController {
     
     private let baseUrl = URL(string: "https://lambda-bookr.herokuapp.com/api")!
+    var user: User?
     
     // function for sign up
     func signUp(with user: User, completion: @escaping (Error?) -> Void) {
