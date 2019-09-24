@@ -19,6 +19,7 @@
 		CCFF3675233A898600CF7B0F /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFF3674233A898600CF7B0F /* Book.swift */; };
 		CCFF3677233A898C00CF7B0F /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFF3676233A898C00CF7B0F /* Review.swift */; };
 		CCFF3679233A8ADA00CF7B0F /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFF3678233A8ADA00CF7B0F /* APIController.swift */; };
+		CCFF367B233A99FB00CF7B0F /* Bearer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFF367A233A99FB00CF7B0F /* Bearer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		CCFF3674233A898600CF7B0F /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		CCFF3676233A898C00CF7B0F /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		CCFF3678233A8ADA00CF7B0F /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
+		CCFF367A233A99FB00CF7B0F /* Bearer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bearer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				CCFF3672233A897800CF7B0F /* User.swift */,
 				CCFF3674233A898600CF7B0F /* Book.swift */,
 				CCFF3676233A898C00CF7B0F /* Review.swift */,
+				CCFF367A233A99FB00CF7B0F /* Bearer.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCFF367B233A99FB00CF7B0F /* Bearer.swift in Sources */,
 				CCFF3655233A7D5500CF7B0F /* AppDelegate.swift in Sources */,
 				CCFF3677233A898C00CF7B0F /* Review.swift in Sources */,
 				CCFF3657233A7D5500CF7B0F /* SceneDelegate.swift in Sources */,

@@ -24,6 +24,9 @@
                                             <segment title="Sign Up"/>
                                             <segment title="Sign In"/>
                                         </segments>
+                                        <connections>
+                                            <action selector="signUpTypeChanged:" destination="fdV-YD-eWN" eventType="valueChanged" id="Vew-D3-MAV"/>
+                                        </connections>
                                     </segmentedControl>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NcJ-3o-XCm">
                                         <rect key="frame" x="0.0" y="57" width="374" height="34"/>
