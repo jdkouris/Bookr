@@ -1,5 +1,5 @@
 //
-//  Bearer.swift
+//  Login.swift
 //  Bookr
 //
 //  Created by John Kouris on 9/24/19.
@@ -8,9 +8,7 @@
 
 import Foundation
 
-struct Bearer: Codable {
-    var id: Int
+struct Login: Codable {
     var username: String
-    var roles: [String]
-    var token: String
+    var password: String
 }

@@ -37,10 +37,8 @@ class LoginViewController: UIViewController {
             let password = passwordTextField.text,
             !password.isEmpty else { return }
         
-        let user = User(username: username, password: password)
-        
         if loginType == .signUp {
-            apiController.signUp(with: user) { (error) in
+            apiController.signUp(with: username, password: password) { (error) in
                 if let error = error {
                     print("Error occurred during sign up: \(error.localizedDescription)")
                 } else {
@@ -57,7 +55,7 @@ class LoginViewController: UIViewController {
                 }
             }
         } else if loginType == .signIn {
-            apiController.signIn(with: user) { (error) in
+            apiController.LogIn(with: username, password: password) { (error) in
                 if let error = error {
                     print("Error occurred during sign in: \(error.localizedDescription)")
                 } else {
