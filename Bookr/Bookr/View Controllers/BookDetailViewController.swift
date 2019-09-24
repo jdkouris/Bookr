@@ -9,6 +9,13 @@
 import UIKit
 
 class BookDetailViewController: UIViewController {
+    
+    @IBOutlet var bookImageView: UIImageView!
+    @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var authorLabel: UILabel!
+    @IBOutlet var ratingImageView: UIImageView!
+    @IBOutlet var descriptionLabel: UILabel!
+    @IBOutlet var reviewsTableView: UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()

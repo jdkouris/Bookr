@@ -9,12 +9,21 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-
+    
+    @IBOutlet var loginSegmentedControl: UISegmentedControl!
+    @IBOutlet var usernameTextField: UITextField!
+    @IBOutlet var passwordTextField: UITextField!
+    @IBOutlet var signUpButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+    
+    @IBAction func signUpButtonTapped(_ sender: UIButton) {
+    }
+    
     
 
     /*
